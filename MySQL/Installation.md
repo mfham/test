@@ -1,7 +1,7 @@
 # Reference
 
-https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/
-https://dev.mysql.com/doc/refman/5.7/en/adding-users.html
+https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/  
+https://dev.mysql.com/doc/refman/5.7/en/adding-users.html  
 
 # Installation Instructions
 
@@ -9,9 +9,9 @@ https://dev.mysql.com/doc/refman/5.7/en/adding-users.html
 # 20171020
 $ sudo su -
 
-# CentOS 7
+# CentOS7
 $ curl -LO https://dev.mysql.com/get/mysql57-community-release-el7-11.noarch.rpm
-# CentOS 6
+# CentOS6
 # curl -LO https://dev.mysql.com/get/mysql57-community-release-el6-11.noarch.rpm
 
 # install MySQL5.7
