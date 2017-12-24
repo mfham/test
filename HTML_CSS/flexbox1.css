@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__login {
+  border-radius: 5px;
+}
+
+.main {
+  display: flex;
+}
+
+.main__sidebar {
+  width: 200px;
+}
+
+.main__contents {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__paging {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__paging__total {
+  font-size: 24px;
+}
+
+.main__paging__list {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.main__paging__item {
+  margin: 10px;
+  color: #fff;
+  background: #ffd0aa;
+}
+
+.main__material__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main__material__item {
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  background: #aaffaa;
+  width: 25%;
+}
+
+.footer {
+  display: flex;
+}
